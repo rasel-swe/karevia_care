@@ -1,79 +1,20 @@
-# Karevia Group – Transformational Concierge Website
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-A premium, Afro-chic, high-end website designed and developed for **Karevia Group**, a transformational concierge service based in Kenya.  
-This project focuses on emotional storytelling, trust, safety, and elegant user experience — not traditional tourism.
+# Run and deploy your AI Studio app
 
-🔗 **Live Website:**  
-https://enchanting-truffle-c7c411.netlify.app/
+This contains everything you need to run your app locally.
 
----
+View your app in AI Studio: https://ai.studio/apps/drive/1cmkX0dhJNwZsrgUvf612I1HaMddCTWtG
 
-## 🌍 About the Project
+## Run Locally
 
-Karevia Group is a human-centered concierge brand that designs **transformational journeys**, not trips.  
-The website reflects the brand’s core values:
+**Prerequisites:**  Node.js
 
-- Premium & minimalist luxury
-- Afro-chic visual identity
-- Emotional and human storytelling
-- Trust, discretion, and safety
-- Clear presentation of concierge services
 
-The goal of the website is to build emotional connection, inspire trust, and encourage private consultation and booking requests.
-
----
-
-## ✨ Key Features
-
-- Premium, Afro-chic UI design
-- Mobile-first, fully responsive layout
-- Clean and elegant typography
-- Emotion-driven storytelling sections
-- Clear presentation of 5 service pillars
-- Founder-focused authenticity section
-- Simple and discreet contact / booking flow
-- Fast performance and modern UX patterns
-
----
-
-## 🧭 Website Structure
-
-- **Home** – Brand positioning, emotional hero, service overview, CTA
-- **About Karevia** – Mission, vision, and human-centered approach
-- **Our Services** – Five transformational concierge pillars
-- **Why Choose Us** – Trust, safety, and differentiation
-- **Founder’s Story** – Authentic multicultural narrative
-- **Testimonials** – Social proof and emotional outcomes
-- **Contact / Booking** – Private and elegant inquiry form
-
----
-
-## 🎨 Design Direction
-
-- **Style:** Minimalist luxury, warm, premium, Afro-chic  
-- **Color Palette:** Earth tones (ochre, terracotta, beige, deep brown)  
-- **Typography:** Clean, modern, elegant  
-- **Imagery:** Nature, textures, African elements, human portraits  
-- **UX Focus:** Calm flow, emotional pacing, clarity, trust
-
----
-
-## 🛠 Tech Stack
-
-- Frontend: HTML, CSS, JavaScript  
-- Styling: Modern CSS / utility-based approach  
-- Deployment: Netlify  
-
-*(Adjust this section if you used React, Tailwind, Next.js, etc.)*
-
----
-
-## 🚀 Getting Started
-
-To run the project locally:
-
-```bash
-git clone https://github.com/your-username/karevia-group-website.git
-cd karevia-group-website
-npm install
-npm run dev
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
